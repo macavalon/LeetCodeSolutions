@@ -1,0 +1,27 @@
+﻿Build started 06/05/2016 18:29:44.
+     1>Project "C:\Users\Peter Richardson\Documents\Visual Studio 2008\Projects\macavalon\leetcode\leetcode_tests\leetcode_tests\leetcode_tests.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\leetcode_tests.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\leetcode_tests.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt leetcode_tests.cpp test127_wordladder.cpp test2_add_two_numbers.cpp test5_palindromic.cpp
+         leetcode_tests.cpp
+     1>leetcode_tests.cpp(21): warning C4101: 'test' : unreferenced local variable
+         test127_wordladder.cpp
+     1>test127_wordladder.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+         test2_add_two_numbers.cpp
+         test5_palindromic.cpp
+     1>test5_palindromic.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Peter Richardson\Documents\Visual Studio 2008\Projects\macavalon\leetcode\leetcode_tests\Release\leetcode_tests.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Peter Richardson\Documents\Visual Studio 2008\Projects\macavalon\leetcode\leetcode_tests\Release\leetcode_tests.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Peter Richardson\Documents\Visual Studio 2008\Projects\macavalon\leetcode\leetcode_tests\Release\leetcode_tests.lib" /MACHINE:X86 /SAFESEH Release\leetcode_tests.obj
+         Release\stdafx.obj
+         Release\test127_wordladder.obj
+         Release\test2_add_two_numbers.obj
+         Release\test5_palindromic.obj
+         Generating code
+         Finished generating code
+         leetcode_tests.vcxproj -> C:\Users\Peter Richardson\Documents\Visual Studio 2008\Projects\macavalon\leetcode\leetcode_tests\Release\leetcode_tests.exe
+     1>Done Building Project "C:\Users\Peter Richardson\Documents\Visual Studio 2008\Projects\macavalon\leetcode\leetcode_tests\leetcode_tests\leetcode_tests.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.47

@@ -1,0 +1,21 @@
+﻿Build started 20/05/2016 11:29:40.
+     1>Project "C:\Users\Peter Richardson\Documents\Visual Studio 2008\Projects\macavalon\leetcode\leetcode_tests\leetcode_tests\leetcode_tests.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\leetcode_tests.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt leetcode_tests.cpp
+         leetcode_tests.cpp
+     1>c:\users\peter richardson\documents\visual studio 2008\projects\macavalon\leetcode\leetcode_tests\leetcode_tests\208_implement_trie.h(37): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\peter richardson\documents\visual studio 2008\projects\macavalon\leetcode\leetcode_tests\leetcode_tests\208_implement_trie.h(57): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\peter richardson\documents\visual studio 2008\projects\macavalon\leetcode\leetcode_tests\leetcode_tests\208_implement_trie.h(82): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\peter richardson\documents\visual studio 2008\projects\macavalon\leetcode\leetcode_tests\leetcode_tests\leetcode_tests.cpp(24): warning C4101: 'test' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Peter Richardson\Documents\Visual Studio 2008\Projects\macavalon\leetcode\leetcode_tests\Debug\leetcode_tests.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Peter Richardson\Documents\Visual Studio 2008\Projects\macavalon\leetcode\leetcode_tests\Debug\leetcode_tests.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Peter Richardson\Documents\Visual Studio 2008\Projects\macavalon\leetcode\leetcode_tests\Debug\leetcode_tests.lib" /MACHINE:X86 Debug\leetcode_tests.obj
+         Debug\stdafx.obj
+         Debug\test127_wordladder.obj
+         Debug\test2_add_two_numbers.obj
+         Debug\test5_palindromic.obj
+         leetcode_tests.vcxproj -> C:\Users\Peter Richardson\Documents\Visual Studio 2008\Projects\macavalon\leetcode\leetcode_tests\Debug\leetcode_tests.exe
+     1>Done Building Project "C:\Users\Peter Richardson\Documents\Visual Studio 2008\Projects\macavalon\leetcode\leetcode_tests\leetcode_tests\leetcode_tests.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.67
